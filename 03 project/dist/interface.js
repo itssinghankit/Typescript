@@ -24,7 +24,7 @@ class Facebook {
         this.cameraMode = cameraMode;
         this.filter = filter;
     }
-    //method overring
+    //method overriding
     click() {
         console.log("tu khich meri photo!!");
     }

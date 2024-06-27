@@ -32,7 +32,7 @@ class Facebook implements TakePhoto, ClickPhoto{
         public cameraMode: string,
         public filter: string
         ) {}
-    //method overring
+    //method overriding
     click(){
         console.log("tu khich meri photo!!")
     }

@@ -34,3 +34,5 @@
     * readonly, professional code writing
     * getter and setter
     * interface implementation in class, overriding of methods
+    * abstract classes, difference from interface
+    
