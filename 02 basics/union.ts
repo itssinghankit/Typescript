@@ -39,5 +39,3 @@ let person : "Ankit" | "pushkar"
 person="pushkar"
 // person="rahul" //error
 
-
-

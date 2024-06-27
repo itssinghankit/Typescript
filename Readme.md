@@ -11,4 +11,4 @@
 - readonly, nullables-?
 - array, array of defined Type,array of array of number
 - union,union of Type, typeof, limited set of values
-- 
+- tuples, cautions
