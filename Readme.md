@@ -15,7 +15,7 @@
 - enums
 - interfaces, interface reopening, entending
 
-- project 
+- project - 1
     * for typescript configuration file
 
     ```tsc --init```
@@ -25,4 +25,9 @@
     ```node init```
     
     * for automatically genrating js file from ts
+
     ```tsc -w```
+- project - 2
+
+    * using classes in ts
+    * iniializer in fields of constructor
