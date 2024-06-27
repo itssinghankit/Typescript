@@ -19,3 +19,26 @@ function myFunc4(arg) {
 const myFunc5 = (arg) => {
     return arg[0];
 };
+function anotherFunction(valOne, valTwo) {
+    return {
+        valOne,
+        valTwo,
+    };
+}
+const b = anotherFunction("", 1.1);
+//extending interface
+function anotherFunction2(valOne, valTwo) {
+    return {
+        valOne,
+        valTwo,
+    };
+}
+const c = anotherFunction2("hello", { name: "ankit", age: 20 });
+class Sellable {
+    constructor() {
+        this.cart = [];
+    }
+    addToCart(product) {
+        this.cart.push(product);
+    }
+}

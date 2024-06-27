@@ -30,7 +30,44 @@ function myFunc4<T>(arg: T[]): T {
 }
 
 //in arrow function format
-const myFunc5 = <T,R>(arg: T[]): T => {
+const myFunc5 = <T, R>(arg: T[]): T => {
   return arg[0];
+};
+
+function anotherFunction<T, U extends number>(valOne: T, valTwo: U): object {
+  return {
+    valOne,
+    valTwo,
+  };
 }
 
+const b=anotherFunction("",1.1)
+
+//extending interface
+function anotherFunction2<T, U extends MyInterface2>(valOne: T, valTwo: U): object {
+    return {
+      valOne,
+      valTwo,
+    };
+  }
+
+const c=anotherFunction2("hello",{name:"ankit",age:20})
+
+interface Quiz{ 
+    name:string 
+    type:string
+}
+
+interface Course{
+    name:string,
+    author:string,
+    subject:string
+}
+
+class Sellable<T>{
+    public cart: T[]=[]
+
+    addToCart(product:T){
+        this.cart.push(product);
+    }
+}

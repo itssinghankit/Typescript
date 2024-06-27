@@ -41,4 +41,5 @@
     * getter and setter
     * interface implementation in class, overriding of methods
     * abstract classes, difference from interface
-    * generics, generics with array
+    * generics, generics with array, multiple generic parameter 
+    * generics in classes, extending generics with interface
