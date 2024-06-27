@@ -62,4 +62,22 @@ var addArrow=(a:number,b:number):number=>{
     return a+b
 }
 
-//
+//arrays
+// var fruits:string[]=["apple","orange","banana"]
+// var fruits2:Array<string>=["apple","orange","banana"]
+var fruits=["apple","orange","banana"]
+
+//you cant return number as string type is already defined
+fruits.map((fruit):string=>{
+    return `fruit name is ${fruit}`
+})
+
+//good practice void
+function consoleError(errmsg:string): void{
+    console.error(errmsg)
+}
+
+//never - it never returns a value
+function throwError(errmsg:string): never{
+    throw new Error(errmsg)
+}
