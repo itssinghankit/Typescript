@@ -1,8 +1,8 @@
-## Typescript tutorial
+# Typescript tutorial
 
-# Table of contents-
+## Table of contents-
 
-- Introduction to typescript
+- Introduction to `typescript`
 - Variables
 - Types Specification
 - More about Any,void,never keyword
@@ -18,15 +18,21 @@
 - project - 1
     * for typescript configuration file
 
-    ```tsc --init```
+    ```sh 
+    tsc --init
+    ```
     
     * for initialising node
 
-    ```node init```
+    ```sh 
+    node init
+    ```
     
     * for automatically genrating js file from ts
 
-    ```tsc -w```
+    ```sh 
+    tsc -w
+    ```
 
     * using classes in ts
     * iniializer in fields of constructor
@@ -35,4 +41,3 @@
     * getter and setter
     * interface implementation in class, overriding of methods
     * abstract classes, difference from interface
-    
