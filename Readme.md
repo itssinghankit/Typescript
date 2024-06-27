@@ -27,7 +27,9 @@
     * for automatically genrating js file from ts
 
     ```tsc -w```
-- project - 2
 
     * using classes in ts
     * iniializer in fields of constructor
+    * access modifier -public, private
+    * readonly, professional code writing
+    * getter and setter
