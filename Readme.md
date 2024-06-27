@@ -14,3 +14,15 @@
 - tuples, cautions
 - enums
 - interfaces, interface reopening, entending
+
+- project 
+    * for typescript configuration file
+
+    ```tsc --init```
+    
+    * for initialising node
+
+    ```node init```
+    
+    * for automatically genrating js file from ts
+    ```tsc -w```
