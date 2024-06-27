@@ -13,3 +13,4 @@
 - union,union of Type, typeof, limited set of values
 - tuples, cautions
 - enums
+- interfaces, interface reopening, entending
