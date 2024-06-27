@@ -33,6 +33,7 @@ class User3 {
         this.email = email;
         this.name = name;
         this._courseCount = 1;
+        this.views = 0;
         this.city = "gzb";
         //no need for this keyword
     }
@@ -60,3 +61,14 @@ class User3 {
 let obj2 = new User3("ankit@gmail.com", "ankit");
 obj2.courseCount;
 obj2.courseCount = 3;
+//inheritance
+class SubClass extends User3 {
+    constructor() {
+        super(...arguments);
+        this.isFamily = false;
+    }
+    changeViews() {
+        //views is protected so can be accessed
+        this.views++;
+    }
+}

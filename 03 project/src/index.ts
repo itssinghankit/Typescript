@@ -41,6 +41,8 @@ class User2 {
 class User3 {
   private _courseCount = 1;
 
+  protected views = 0;
+
   readonly city: string = "gzb";
   constructor(public email: string, private name: string) {
     //no need for this keyword
@@ -76,3 +78,15 @@ class User3 {
 let obj2=new User3("ankit@gmail.com","ankit")
 obj2.courseCount
 obj2.courseCount=3
+
+//inheritance
+class SubClass extends User3{
+    isFamily:boolean=false
+
+    changeViews(){
+        //views is protected so can be accessed
+        this.views++
+    }
+    
+}
+

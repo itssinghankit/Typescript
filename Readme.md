@@ -30,6 +30,7 @@
 
     * using classes in ts
     * iniializer in fields of constructor
-    * access modifier -public, private
+    * access modifier -public, private, protected
     * readonly, professional code writing
     * getter and setter
+    * interface implementation in class, overriding of methods
