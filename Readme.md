@@ -1,6 +1,6 @@
-## Typescript tutorial
+# Typescript tutorial
 
-# Table of contents-
+## Table of contents-
 
 - Introduction to typescript
 - Variables
