@@ -38,4 +38,28 @@ var signin= function(name,email,isPaid){
     if(isPaid==void 0){
         isPaid=true
     }
+}  
+
+signin('a','b',undefined)
+
+//return type of function
+function add(a:number,b:number):number{
+    return a+b
 }
+
+//in this case what will be the return type getvalue function as if we say it is boolean else part wil give error and if  we say it is string then if part will give error
+function getValue(myVal:number){
+    if(myVal>10){
+        return true
+    }
+    else{
+        return "less than 10"
+    }
+}
+
+//Arrow function
+var addArrow=(a:number,b:number):number=>{
+    return a+b
+}
+
+//
